@@ -4,7 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/iterator_generation/iterator_generation.py" line="41" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a910507b-fda1-4bad-8bab-f4218d9a734b" name="Default" comment="" />
+    <list default="true" id="a910507b-fda1-4bad-8bab-f4218d9a734b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/class_knowledge/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_knowledge/_metaclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_knowledge/inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_knowledge$_metaclass.coverage" NAME="_metaclass Coverage Results" MODIFIED="1655971542776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_knowledge" />
     <SUITE FILE_PATH="coverage/python_knowledge$derectors.coverage" NAME="derectors Coverage Results" MODIFIED="1655561281312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_knowledge$iterator.coverage" NAME="iterator Coverage Results" MODIFIED="1655654818516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_knowledge$iterator_generation.coverage" NAME="iterator_generation Coverage Results" MODIFIED="1655702754330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -34,11 +40,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iterator_generation/generation_example/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2800">
               <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="163" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inheritance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class_knowledge/inheritance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_metaclass.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class_knowledge/_metaclass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="158" column="21" lean-forward="true" selection-start-line="157" selection-end-line="159" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -115,6 +139,8 @@
         <option value="$PROJECT_DIR$/iterator_generation/generation_example/yield_example.py" />
         <option value="$PROJECT_DIR$/iterator_generation/generation_example/producter_customer.py" />
         <option value="$PROJECT_DIR$/iterator_generation/generation_example/__init__.py" />
+        <option value="$PROJECT_DIR$/class_knowledge/inheritance.py" />
+        <option value="$PROJECT_DIR$/class_knowledge/_metaclass.py" />
       </list>
     </option>
   </component>
@@ -127,9 +153,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1059" />
-    <option name="y" value="-449" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-38" />
+    <option name="y" value="15" />
     <option name="width" value="979" />
     <option name="height" value="1015" />
   </component>
@@ -148,13 +174,7 @@
             <path>
               <item name="python_knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="iterator_generation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_knowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="iterator_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="generation_example" type="462c0819:PsiDirectoryNode" />
+              <item name="class_knowledge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.producter_customer">
+  <component name="RunManager" selected="Python._metaclass">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_knowledge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,7 +228,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="iterator_generation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="_metaclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_knowledge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,12 +236,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iterator_generation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_knowledge" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterator_generation/iterator_generation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_knowledge/_metaclass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,19 +305,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.iterator_generation (1)" />
       <item itemvalue="Python.yield_example" />
       <item itemvalue="Python.yield_from_example" />
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.producter_customer" />
+      <item itemvalue="Python._metaclass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._metaclass" />
         <item itemvalue="Python.producter_customer" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.yield_from_example" />
         <item itemvalue="Python.yield_example" />
-        <item itemvalue="Python.iterator_generation (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -315,17 +335,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1087" y="-853" width="878" height="1502" extended-state="7" />
+    <frame x="-30" y="12" width="783" height="812" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22051282" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45333335" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18536586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11310345" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
@@ -426,6 +446,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iterator_generation/generation_example/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2800">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iterator_generation/iterator_generation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1000">
@@ -433,10 +460,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iterator_generation/generation_example/__init__.py">
+    <entry file="file://$PROJECT_DIR$/class_knowledge/inheritance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2800">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="163" />
+        <state relative-caret-position="492">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_knowledge/_metaclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="158" column="21" lean-forward="true" selection-start-line="157" selection-end-line="159" selection-end-column="18" />
         </state>
       </provider>
     </entry>
