@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/iterator_generation/iterator_generation.py" line="41" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a910507b-fda1-4bad-8bab-f4218d9a734b" name="Default" comment="" />
+    <list default="true" id="a910507b-fda1-4bad-8bab-f4218d9a734b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/并发编程/同步异步阻塞非阻塞.md" beforeDir="false" afterPath="$PROJECT_DIR$/并发编程/同步异步阻塞非阻塞.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
