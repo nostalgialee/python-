@@ -50,6 +50,12 @@ def func2(titles):
 # ['Python', 'Java', 'C++']
 # yield返回的完整的titles列表，
 
+# func().__next__()   #  >>> ['Python', 'Java', 'C++']
+
+
+
+
+
 # for title in func2(titles):
 #     print(title)
 # Python
@@ -153,7 +159,6 @@ yield from 会把执行权交给其后面的生成器参数，
 def generation():
     yield from son_generation()
 
-
 def son_generation()
     for i in range(10):
         yield i
@@ -163,4 +168,5 @@ def son_generation()
 from .yield_from_example import *
 
 
-
+# yield from 很好的视频
+# https://www.bilibili.com/video/BV1AY4y1876y/?vd_source=3ddfa8aba9aa48261c50e13e16da2826
